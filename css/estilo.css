@@ -79,6 +79,19 @@ nav ul li:hover{
 	padding: 5px 10px;
 	border-radius: 20px;
 	margin: 0 10px;
+
 }
 
+.Work{
+	text-align: center;
+}
 
+.Work .Work-item{
+	width: 300px;
+	display: inline-block;
+	margin: 0;
+}
+
+.Work .Work-item img{
+	width: 100%;
+}

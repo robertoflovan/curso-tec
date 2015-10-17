@@ -64,4 +64,21 @@ nav ul li:hover{
 }
 
 
+.Profile{
+	text-align: center;
+}
+
+.Profile .Profile-title{
+	color: rgb(244,200,120);
+	border-bottom: 2px dashed red;
+	padding: 0 0 15px 0;
+}
+
+.Profile .Profile-link{
+	background-color: orange;
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin: 0 10px;
+}
+
 

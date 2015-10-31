@@ -4,38 +4,53 @@ html(lang="en")
 		meta(charset="UTF-8")
 		title Roberto Flores
 		link(rel="stylesheet" type="text/css" href="css/estilos.css")
+		link(rel="stylesheet" type="text/css" href="css/fonts.css")
 	body
-		section
-			header
-				figure
+		section.Perfil
+			header.Perfil-header
+				figure.Perfil-header-figure
 					img
-					figcaption Roberto Flores
-					figcaption Front-end
-			article
+					div.Perfil-header-figure-figcaptions
+						figcaption Roberto Flores
+						figcaption Front-end
+			article.Perfil-contacto
 				ul
-					a
-						li
-							i //para icono
+					li.Perfil-contacto-tel
+						a(href="tel:+528448076459")
+							i.icon-tel
 							span (844) 000 0000 
-					a
-						li
-							i 
+					li.Perfil-contacto-email
+						a(href="mailto:roberto_flovan@hotmail.com")
+							i.icon-email
 							span correo@correo.com
-					a
-						li
-							i 
+					li.Perfil-contacto-contratar
+						a
+							i.icon-contratar
 							span Contratar
-			article
+			article.Perfil-redesSociales
 				ul
-					a
-						li
-							i
-		section
-			article
-				div
-					h2 Habilidad 1
-					p Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
-			article
-				div
-					h2 Habilidad 2
-					p Lomet
+					li.Perfil-redesSociales-twt
+						a(href="#" target="_blank")
+							i.icon-twt
+							span asd
+					li.Perfil-redesSociales-fb
+						a(href="#" target="_blank")
+							i.icon-fb
+							span asd
+					li.Perfil-redesSociales-git
+						a(href="#" target="_blank")
+							i.icon-git
+							span asd
+
+			//article#map.Perfil-mapa
+		section.Contenido
+			article.Contenido-skill
+				div.Contenido-skill-info
+					h2.Contenido-skill-info-titulo Habilidad 1
+					p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
+			article.Contenido-skill
+				div.Contenido-skill-info
+					h2.Contenido-skill-info-titulo Habilidad 1
+					p.Contenido-skill-info-desc Lomet ffshdbqgijosgq r n jgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqic kvns kra
+		script(src="http://maps.googleapis.com/maps/api/js")
+		script(src="./js/app.js")

@@ -6,6 +6,16 @@ html(lang="en")
 		link(rel="stylesheet" type="text/css" href="css/estilos.css")
 		link(rel="stylesheet" type="text/css" href="css/fonts.css")
 	body
+		section#popup.Popup
+			article.Popup-container
+				i#closePopup.icon-cancel
+				form.Popup-container-form
+					input(type="email" placeholder="example@dominio.com" required)
+					input(type="text" placeholder="Nombre" required)
+					textarea(placeholder="Escriba su mensaje" required)
+					button(type="submit") Enviar
+				div#map.Popup-container-map
+
 		section.Perfil
 			header.Perfil-header
 				figure.Perfil-header-figure
@@ -23,7 +33,7 @@ html(lang="en")
 						a(href="mailto:roberto_flovan@hotmail.com")
 							i.icon-email
 							span correo@correo.com
-					li.Perfil-contacto-contratar
+					li#btnpopup.Perfil-contacto-contratar
 						a
 							i.icon-contratar
 							span Contratar
@@ -46,19 +56,24 @@ html(lang="en")
 		section.Contenido
 			article.Contenido-skill
 				div.Contenido-skill-info
-					h2.Contenido-skill-info-titulo Habilidad 1
-					p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
+					div
+						h2.Contenido-skill-info-titulo Habilidad 1
+						p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
 			article.Contenido-skill
 				div.Contenido-skill-info
-					h2.Contenido-skill-info-titulo Habilidad 1
-					p.Contenido-skill-info-desc Lomet ffshdbqgijosgq r n jgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqic kvns kra
+					div
+						h2.Contenido-skill-info-titulo Habilidad 1
+						p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
 			article.Contenido-skill
 				div.Contenido-skill-info
-					h2.Contenido-skill-info-titulo Habilidad 1
-					p.Contenido-skill-info-desc Lomet ffshdbqgijosgq r n jgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqic kvns kra
+					div
+						h2.Contenido-skill-info-titulo Habilidad 1
+						p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
 			article.Contenido-skill
 				div.Contenido-skill-info
-					h2.Contenido-skill-info-titulo Habilidad 1
-					p.Contenido-skill-info-desc Lomet ffshdbqgijosgq r n jgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqic kvns kra
+					div
+						h2.Contenido-skill-info-titulo Habilidad 1
+						p.Contenido-skill-info-desc Lomet ffshdbqgijosgqrnjgjc jnissgqoinougjoi onnfoierjn frjjnfsdjrk kjgnkfjoi hghuhp9roqickvnskra
+
 		script(src="http://maps.googleapis.com/maps/api/js")
 		script(src="./js/app.js")
